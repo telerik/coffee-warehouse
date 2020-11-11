@@ -81,6 +81,16 @@ a {
     }
 }
 
+.k-button.k-ghost {
+    border: 2px solid #C8E2F2;
+    background: transparent;
+    color: #fff;
+
+    &:hover {
+        background: #94D7FF;
+    }
+}
+
 .card-container {
     background-color: $white;
     padding: 40px 0;
@@ -221,14 +231,14 @@ a {
 
     .k-avatar {
         display: block;
-        width: 40px;
-        height: 40px;
+        width: 32px;
+        height: 32px;
         margin: 0 25px;
         box-shadow: 0 0 0px 1px $white;
 
         img {
-            width: 40px;
-            height: 40px;
+            width: 32px;
+            height: 32px;
         }
     }
 
@@ -432,7 +442,7 @@ a {
     background-color: $info-background;
     color: $white;
 
-    h1, h2, h3, .component-link {
+    .component-link {
         font-family: Metric,Helvetica,Arial,sans-serif;
     }
     a:not(.k-button) {

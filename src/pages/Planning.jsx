@@ -82,7 +82,7 @@ const Planning = () => {
                             >
                                 <Card style={{ borderWidth: 0, cursor: 'pointer'}}>
                                     <CardHeader className="k-hbox" >
-                                        <Avatar type='image' shape='circle'>
+                                        <Avatar type='image' shape='circle' themeColor="primary" fill="outline">
                                             <img alt="" style={{
                                                     backgroundImage: images[employee.imgId + employee.gender],
                                                     borderColor: teams.find(({teamID}) => teamID === employee.teamId).teamColor,

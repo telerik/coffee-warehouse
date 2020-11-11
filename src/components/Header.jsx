@@ -28,7 +28,7 @@ export const Header = (props) => {
             if (hasImage) {
                 var reader = new FileReader();
 
-                reader.onload = function(e) {
+                reader.onload = function (e) {
                     imgRef.current.setAttribute('src', e.target.result)
                 }
 
@@ -42,7 +42,7 @@ export const Header = (props) => {
         <header className="header" style={{ backgroundImage: `url(${headerBg})` }}>
             <div className="nav-container">
                 <div className="menu-button">
-                    <span className={'k-icon hamburger-icon'} onClick={onButtonClick}/>
+                    <span className={'k-icon hamburger-icon'} onClick={onButtonClick} />
                 </div>
 
                 <div className="title">
@@ -60,11 +60,11 @@ export const Header = (props) => {
                         onChange={onLanguageChange}
                     />
                 </div>
-                <Avatar type={'image'} shape={'circle'}>
+                <Avatar type={'image'} shape={'circle'} fill="outline" style={{ width: 32, height: 32 }}>
                     {
                         hasImage ?
                             <img ref={imgRef} src={'#'} alt={'User Avatar'} /> :
-                            <img src={userAvatar} alt="user-avatar"/>
+                            <img src={userAvatar} alt="user-avatar" />
                     }
                 </Avatar>
             </div>

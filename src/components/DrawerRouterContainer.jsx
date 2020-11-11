@@ -80,6 +80,7 @@ class DrawerRouterContainer extends React.Component {
                                 selected: item.name === selected
                             }))
                     }
+                    animation={false}
                     item={CustomDrawerItem}
                     position='start'
                     mode={this.state.isSmallerScreen ? 'overlay' : 'push'}

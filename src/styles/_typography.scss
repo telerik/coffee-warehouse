@@ -1,20 +1,55 @@
 @font-face {
-    font-family: "Roboto";
-    src: url("fonts/Roboto-Regular.ttf") format("truetype");
-}
+    font-family: FaktSlabPro;
+     src:url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Light.eot");
+     src:url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Light.eot#iefix") format("embedded-opentype"),
+         url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Light.woff2") format("woff2"),
+         url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Light.woff") format("woff"),
+         url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Light.ttf") format("truetype"),
+         url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Light.svg#FaktSlabPro-Light") format("svg");
+     font-weight:200;
+     font-display:swap
+     }
+     @font-face{
+         font-family:FaktSlabPro;
+         
+         src:url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Blond.eot");
+         src:url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Blond.eot#iefix") format("embedded-opentype"),
+             url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Blond.woff2") format("woff2"),
+             url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Blond.woff") format("woff"),
+             url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Blond.ttf") format("truetype"),
+             url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Blond.svg#FaktSlabPro-Blond") format("svg");
+         font-weight:300;
+         font-display:swap
+     }
+ @font-face{
+     font-family:FaktSlabPro;
+     src:url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Medium.eot");
+     src:url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Medium.eot#iefix") format("embedded-opentype"),
+         url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Medium.woff2") format("woff2"),
+         url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Medium.woff") format("woff"),
+         url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Medium.ttf") format("truetype"),
+         url("https://d6vtbcy3ong79.cloudfront.net/fonts/2.0.0/faktslabpro/FaktSlabPro-Medium.svg#FaktSlabPro-Medium") format("svg");
+     font-weight:500;
+     font-display: swap;         
+   }
+
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Metric", sans-serif;
+    font-size: 18px;
 }
 
 h1 {
+    font-family: 'FaktSlabPro';
     font-size: 1.25rem;
     font-weight: 400;
 }
 h2 {
-    font-size: 1.0rem;;
+    font-family: 'FaktSlabPro';
+    font-size: 1.0rem;
     font-weight: 200;
 }
 h3 {
+    font-family: 'FaktSlabPro';
     font-size: 1.25rem;
     font-weight: 400;
 }
@@ -37,7 +72,7 @@ a {
         font-weight: 400;
     }
     h2 {
-        font-size: 1.25rem;;
+        font-size: 1.25rem;
         font-weight: 200;
     }
 }
@@ -48,7 +83,7 @@ a {
         font-weight: 400;
     }
     h2 {
-        font-size: 1.75rem;;
+        font-size: 1.75rem;
         font-weight: 200;
     }
 }
